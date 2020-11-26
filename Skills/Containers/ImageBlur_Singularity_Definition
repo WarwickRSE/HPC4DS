@@ -1,0 +1,22 @@
+#Bootstrap from the Ubuntu 20.04 (LTS) image on Dockerhub
+Bootstrap:docker
+From:ubuntu:20.04
+
+%files
+    ImageBlur.py /opt
+
+%post
+    echo "Installing Python"
+    apt-get -y update
+    apt-get -y install python3
+    apt-get -y install python3-tk #Needed for visual plots
+    apt-get -y install python3-pip
+    apt-get -y install xauth #Needed for visual plots
+    echo "Instaling Python libraries"
+    pip3 install pillow
+    pip3 install numpy
+    pip3 install matplotlib
+
+%runscript
+    echo "Arguments received: $*"
+    exec /usr/bin/python3 /opt/ImageBlur.py "$@"
