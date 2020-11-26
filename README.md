@@ -13,7 +13,7 @@ Videos are provided via Youtube.
 
 # How to Use these Materials
 
-These snippets are intended to support the material for study. Look for the mentions in Warwick-Blue within the pdf instructions. 
+These snippets are intended to support the material for study. Look for the mentions in <span style="color:#00407A"><b>Warwick-Blue </b></span> within the pdf instructions. 
 
 To run these, you will need either Jupyter, or Python depending. We use Python 3.5. The scripts assume you are on a system which provides /usr/bin/env and refers to Python-3 as python3.
 
