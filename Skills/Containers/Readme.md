@@ -14,10 +14,10 @@ The setup process for this container has to:
 * Run the script
 
 Remember that build the container you will need to run Singularity as root, for example
-`sudo singularity build <sif\_file.sif> ImageBlur\_Singularity\_Definition` where <sif\_file.sif>
+`sudo singularity build <sif_file.sif> ImageBlur_Singularity_Definition` where `<sif_file.sif>`
 shoud be replaced with the name you want the container to have. 
 
 Note: you can use online services to build containers, such as [this](https://cloud.sylabs.io/builder). 
-We don't cover this here in detail, but do note you will need to get an account
+We don't cover this here, but do note you will need to get an account
 and generate a token to use it.
 
