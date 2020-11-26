@@ -1,0 +1,5 @@
+{
+	"widget_name":"MyWidget",
+	"widget_number": 10,
+	"widget_options":["left", "right", "backwards"]
+}
