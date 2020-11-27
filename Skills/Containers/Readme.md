@@ -13,7 +13,7 @@ The setup process for this container has to:
 * When the container runs, take a parameter telling it what image file to operate on
 * Run the script
 
-Remember that build the container you will need to run Singularity as root, for example
+Remember that to build the container you will need to run Singularity as root, for example
 `sudo singularity build <sif_file.sif> ImageBlur_Singularity_Definition` where `<sif_file.sif>`
 shoud be replaced with the name you want the container to have. 
 
