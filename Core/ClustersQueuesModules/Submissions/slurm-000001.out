@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "pythonNumbaParallel.py", line 1, in <module>
+    from numpy import arange
+ModuleNotFoundError: No module named 'numpy'
+srun: error: cnode12: task 0: Exited with exit code 1
+srun: Terminating job step 300607.0

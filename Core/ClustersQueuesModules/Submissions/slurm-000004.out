@@ -1,0 +1,3 @@
+Code is running on 4 threads
+Sum of the numbers from 1 to 20 should be 210
+Parallel code obtained 210
