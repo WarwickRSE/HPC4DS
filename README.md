@@ -13,7 +13,16 @@ Videos are provided via Youtube.
 
 # How to Use these Materials
 
-These snippets are intended to support the material for study. Look for the mentions in <span style="color:#00407A"><b>Warwick-Blue </b></span> within the pdf instructions. 
+These snippets are intended to support the material for study. Look for the mentions in <span style="color:#00407A"><b>Warwick-Blue </b>/span> within the pdf instructions. 
 
 To run these, you will need either Jupyter, or Python depending. We use Python 3.5. The scripts assume you are on a system which provides /usr/bin/env and refers to Python-3 as python3.
+
+## What if I'm on Windows?
+
+We mostly assume that you are using a Linux-based system, such as Ubuntu, Mac-OS, or Debian. If you
+are using Windows, we would recommend a Virtual Machine running one of these. Ubuntu is user-friendly
+and VMs are easy to obtain. 
+
+In Windows 10 it is possible to do many of the examples using the Windows Subsystem for Linux, but we
+have not tested this
 
